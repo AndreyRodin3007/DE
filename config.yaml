@@ -1,0 +1,22 @@
+data:
+  raw_path: sample_data/webc.data
+
+results:
+  dir: results
+  raw_csv: raw_data.csv
+  preproc_csv: preprocessed_data.csv
+  test_csv: test_data.csv
+  model: model.joblib
+  scaler: scaler.joblib
+  metrics: metrics.json
+  archive_dir: results_archive
+
+model:
+  test_size: 0.2
+  random_state: 42
+  max_iter: 1000
+
+cloud:
+  type: local
+  s3_bucket: my-bc-models
+  s3_key_prefix: models/

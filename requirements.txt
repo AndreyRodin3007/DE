@@ -1,0 +1,7 @@
+pandas
+scikit-learn
+apache-airflow
+pyyaml
+joblib
+boto3
+python-dotenv
