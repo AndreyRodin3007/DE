@@ -1,5 +1,5 @@
 data:
-  raw_path: sample_data/webc.data
+  raw_path: sample_data/wdbc.data
 
 results:
   dir: results
